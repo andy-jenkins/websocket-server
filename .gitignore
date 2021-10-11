@@ -1,0 +1,46 @@
+#
+# Gradle
+#
+.gradle
+bin/
+build/
+gradle/
+out/
+gradlew
+gradlew.bat
+settings.gradle
+
+#
+# IntelliJ IDEA
+#
+.idea
+*.iws
+*.iml
+*.ipr
+
+#
+# MacOS
+#
+.DS_Store
+
+#
+# Spring
+#
+application-local.properties
+
+#
+# STS
+#
+.attach*
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+#
+# VS Code
+#
+.vscode/
