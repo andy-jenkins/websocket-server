@@ -10,12 +10,16 @@ jobs:
     executor: jdk8
     steps:
       - checkout
-      - run: gradle clean bootJar
+      - run:
+          name: Running build
+          command: gradle clean bootJar
   test:
     executor: jdk8
     steps:
       - checkout
-      - run: gradle test
+      - run:
+          name: Running tests
+          command: gradle test
       - store_test_results:
           path: build/test-results/test
       - store_artifacts:
