@@ -1,16 +1,16 @@
 # Websocket Server
 
-
 ## Introduction
 SpringBoot focused example of a websocket server hosted on port 10101.
 
+## Status 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/andy-jenkins/websocket-server/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/andy-jenkins/websocket-server/tree/master)
 
 ## Dependencies
 This project depends on the following
 compile-time dependencies being installed:
 * Java 8 (or greater)
 * Gradle 6.8.0 (or greater)
-
 
 ## Testing
 The simplest way to check if a websocket is available,
