@@ -1,0 +1,26 @@
+version: 2.1
+
+executors:
+  jdk8:
+    docker:
+      - image: gradle:6.9.2-jdk8
+
+jobs:
+  build:
+    executor: jdk8
+    steps:
+      - checkout
+      - run: gradle clean bootJar
+  test:
+    executor: jdk8
+    steps:
+      - checkout
+      - run: gradle test
+
+workflows:
+  example:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
