@@ -6,6 +6,8 @@ SpringBoot focused example of a websocket server hosted on port 10101.
 ## Status 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/andy-jenkins/websocket-server/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/andy-jenkins/websocket-server/tree/master)
 
+[![CircleCI](https://dl.circleci.com/insights-snapshot/gh/andy-jenkins/websocket-server/master/integrate/badge.svg?window=30d)](https://app.circleci.com/insights/github/andy-jenkins/websocket-server/workflows/integrate/overview?branch=master&reporting-window=last-30-days&insights-snapshot=true)
+
 ## Dependencies
 This project depends on the following
 compile-time dependencies being installed:
